@@ -1,7 +1,6 @@
 package breathFirstTreeTraversal
 
 import java.util.*
-import kotlin.contracts.contract
 
 data class Node<T>(val data: T, val nodes: List<Node<T>> = emptyList())
 
